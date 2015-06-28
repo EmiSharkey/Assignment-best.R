@@ -30,7 +30,7 @@ best <- function(state, outcome) {
                         else  if(outcome== "pneumonia"){
                                 column_outcome= "Hospital.30.Day.Death..Mortality..Rates.from.Pneumonia"       
                         } 
-                        else{
+                        else{ 
                                 column_outcome= "Hospital.30.Day.Death..Mortality..Rates.from.Heart.Failure"       
                         } 
                         #outcome_filtered stores the hospital names and mortality rate
